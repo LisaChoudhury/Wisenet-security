@@ -1,137 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
-
-
-
-  <title>Wisenet Security | Security Guard Services in Adelaide</title>
-
-
-
-    
-    <meta name="description" content="Wisenet Security provides expert security guard services, mobile patrols, and safety solutions in Adelaide. Contact us today for professional protection.">
-    <meta name="keywords" content="Security guards Adelaide, Mobile patrols, Static security, Security services Adelaide, Corporate security, Retail security, Construction site security, Industrial security, Government security, Personal protection, CCTV monitoring, Alarm response, Event security, Risk assessment, Security consultancy, 24/7 security services, Security management">
-    <meta name="author" content="Wisenet Security">
-    <meta property="og:title" content="Wisenet Security | Security Guard Services in Adelaide">
-    <meta property="og:description" content="Reliable security guard and patrol services in Adelaide. Protect your business with expert security solutions.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://wisenetsecurity.au">
-    <meta property="og:image" content="https://wisenetsecurity.au/og-image.jpg">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wisenet Security – Adelaide Guards, Patrols, Technology</title>
+    <meta name="description" content="Wisenet Security (Ercol Services Pty Ltd) – Security guards, mobile patrols, recruitment, and technology: cyber security, CCTV, radio comms, body cameras. Adelaide & South Australia." />
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body {
-            background-color: #f0f1f1;
-            color: black;
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        header {
-            background: url('image/security-header.jpg') no-repeat center center;
-            background-size: contain;
-            height: 200px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-            color: white;
-        } 
-
-
-
-
-        
-        header h1 {
-            color: rgb(190, 177, 223);
-            font-weight: bold;
-        }
-        .cta-button {
-            background-color: #FFD700;
-            padding: 10px 20px;
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
-            border-radius: 5px;
-        }
-        section {
-            padding: 20px;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            background: rgba(0, 0, 0, 0.1);
-            padding: 10px;
-            margin: 5px;
-            border-radius: 5px;
-        }
-        img {
-            width: 200px;
-            height: auto;
-            object-fit: contain;
-            border-radius: 10px;
-        }
-        footer {
-            background: #021024;
-            padding: 10px;
-            color: white;
-        }
-        a {
-            color: black;
-        }
-        a:hover {
-            color: #FFD700;
-        }
+      :root{--from:#0ea5e9;--via:#22c55e;--to:#a855f7;--ring:rgba(14,165,233,.35)}
+      .themed{background-image:linear-gradient(120deg,var(--from),var(--via),var(--to))}
+      .ring-accent{box-shadow:0 0 0 3px var(--ring)}
     </style>
-</head>
-<body>
-    <header>
-        <h1>Wisenet Security</h1>
-        <p>Reliable Security Guard and Mobile Patrol Services in Adelaide</p>
-        <a href="mailto:administration@wisenetsecurity.au" class="cta-button">Get a Quote</a>
+  </head>
+  <body class="bg-white text-slate-900">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 border-b bg-white/80 backdrop-blur">
+      <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-3 md:px-6">
+        <a href="#home" class="flex items-center gap-2">
+          <span class="rounded-xl bg-white p-2 ring-accent"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-cyan-600" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l7 3v6c0 5-3.5 9.5-7 11-3.5-1.5-7-6-7-11V5l7-3z"/></svg></span>
+          <span class="text-base font-bold tracking-tight md:text-lg">Wisenet Security</span>
+        </a>
+        <nav class="hidden md:flex gap-6 text-sm font-medium">
+          <a href="#about" class="hover:underline">About</a>
+          <a href="#services" class="hover:underline">Services</a>
+          <a href="#technology" class="hover:underline">Technology</a>
+          <a href="#recruitment" class="hover:underline">Recruitment</a>
+          <a href="#testimonials" class="hover:underline">Feedback</a>
+          <a href="#faqs" class="hover:underline">FAQs</a>
+          <a href="#contact" class="bg-cyan-600 text-white px-4 py-2 rounded-full">Get a Quote</a>
+        </nav>
+      </div>
+      <div class="h-1 w-full themed opacity-60"></div>
     </header>
-    
-    <section id="about">
-        <h2>About Wisenet Security</h2>
-        <p>Providing professional security services across Adelaide and South Australia.</p>
-        <p>Email: <a href="mailto:administration@wisenetsecurity.au">administration@wisenetsecurity.au</a></p>
+
+    <!-- Hero (no photos) -->
+    <section id="home" class="py-16 md:py-24">
+      <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-4 md:px-6 items-center">
+        <div>
+          <span class="inline-flex items-center rounded-full bg-cyan-100 px-3 py-1 text-xs font-medium text-cyan-800">24/7 Licensed Guards · Adelaide & South Australia</span>
+          <h1 class="mt-4 text-4xl font-extrabold tracking-tight md:text-6xl">
+            Reliable Security Guard & Mobile Patrol Services
+            <span class="block text-cyan-600">Wisenet Security (Ercol Services Pty Ltd)</span>
+          </h1>
+          <p class="mt-4 text-lg text-slate-700">Professional guarding, rapid alarm response, concierge and loss‑prevention – backed by modern tech: cyber security, CCTV, body‑worn video and secure radio communications.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#contact" class="inline-flex items-center rounded-full bg-cyan-600 px-5 py-3 text-sm font-semibold text-white shadow">Speak to Operations</a>
+            <a href="tel:+61451597827" class="inline-flex items-center rounded-full border border-slate-300 bg-white px-5 py-3 text-sm font-semibold">+61451597827</a>
+            <a href="mailto:administration@wisenetsecurity.au" class="inline-flex items-center rounded-full border border-slate-300 bg-white px-5 py-3 text-sm font-semibold">administration@wisenetsecurity.au</a>
+          </div>
+        </div>
+        <div class="rounded-3xl themed p-8 text-white shadow">
+          <h3 class="text-2xl font-bold">Adelaide-wide coverage</h3>
+          <ul class="mt-3 space-y-2 text-white/90 text-sm">
+            <li>• CBD & commercial towers</li>
+            <li>• Retail & shopping centres</li>
+            <li>• Warehousing & logistics</li>
+            <li>• Construction & industrial</li>
+            <li>• Government & critical infrastructure</li>
+          </ul>
+          <p class="mt-4 text-sm">Custom SOPs, KPI reporting and compliance documentation provided on engagement.</p>
+        </div>
+      </div>
     </section>
-    
-    <section id="services">
-        <h2>Our Security Services in Adelaide</h2>
-        <ul>
-            <li>Security Guards and Mobile Patrol Officers</li>
-            <li>Static Guarding and Manpower</li>
-            <li>Emergency and Alarm Rapid Response</li>
-            <li>Access Control & Surveillance Monitoring</li>
-            <li>Government Approved Security Officers</li>
-            <li>Concierge and Customer Service</li>
-            <li>Loss Prevention and Drug Testing</li>
-            <li>Event Security & Risk Assessment</li>
-            <li>Security Consultancy & Management</li>
-        </ul>
-        <img src="image/security-services.jpg" alt="Security Services">
+
+    <!-- About -->
+    <section id="about" class="py-16 md:py-24">
+      <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-4 md:px-6 items-start">
+        <div>
+          <h2 class="text-3xl font-bold tracking-tight md:text-4xl">About Wisenet Security</h2>
+          <p class="mt-3 text-slate-700">We provide professional security guards, mobile patrols and rapid alarm response across Adelaide and South Australia. Also known as <span class="font-semibold">Ercol Services Pty Ltd</span>, we additionally supply <span class="font-semibold">CCTV</span>, <span class="font-semibold">body cameras</span> and <span class="font-semibold">security gear</span> for licensed officers.</p>
+          <div class="mt-4 text-sm text-slate-700">Email: <a class="underline" href="mailto:administration@wisenetsecurity.au">administration@wisenetsecurity.au</a> · Phone: <a class="underline" href="tel:+61451597827">+61451597827</a></div>
+          <div class="mt-6 grid gap-3 sm:grid-cols-2">
+            <div class="rounded-xl border border-slate-200 p-4"><div class="text-sm text-slate-500">Licences & Insurance</div><div class="font-semibold">SA Licensed Officers • Fully Insured</div></div>
+            <div class="rounded-xl border border-slate-200 p-4"><div class="text-sm text-slate-500">Operations</div><div class="font-semibold">24/7 deployment & supervision</div></div>
+          </div>
+        </div>
+        <div class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <h3 class="text-xl font-semibold">Service highlights</h3>
+          <div class="mt-4 grid gap-4 md:grid-cols-2">
+            <div class="rounded-xl bg-cyan-50 p-4"><div class="text-sm text-cyan-700">Static Guarding</div><div class="font-semibold">Gatehouse, access control, concierge</div></div>
+            <div class="rounded-xl bg-emerald-50 p-4"><div class="text-sm text-emerald-700">Mobile Patrols</div><div class="font-semibold">GPS‑verified visits & reports</div></div>
+            <div class="rounded-xl bg-fuchsia-50 p-4"><div class="text-sm text-fuchsia-700">Alarm Response</div><div class="font-semibold">After‑hours rapid attendance</div></div>
+            <div class="rounded-xl bg-amber-50 p-4"><div class="text-sm text-amber-700">Loss Prevention</div><div class="font-semibold">Retail & drug testing programs</div></div>
+          </div>
+        </div>
+      </div>
     </section>
-    
-    <section id="why-choose-us">
-        <h2>Why Choose Wisenet Security?</h2>
-        <p>With years of experience, we are Adelaide’s trusted security provider, offering tailored solutions for businesses and individuals.</p>
-        <ul>
-            <li>Highly trained, licensed security personnel</li>
-            <li>Comprehensive mobile and static security services</li>
-            <li>24/7 security monitoring and rapid response</li>
-            <li>Reliable protection for corporate, retail, industrial, and government sectors</li>
-            <li>Advanced security strategies and risk management</li>
-        </ul>
-        <img src="image/security-team.jpg" alt="Security Team">
+
+    <!-- Services -->
+    <section id="services" class="py-16 md:py-24 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 md:px-6">
+        <div class="mx-auto max-w-2xl text-center">
+          <h2 class="text-3xl font-bold tracking-tight md:text-4xl">Our Security Services in Adelaide</h2>
+          <p class="mt-3 text-slate-600">Tailored solutions for corporate, retail, industrial, events and government.</p>
+        </div>
+        <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">Security Guards & Mobile Patrol Officers</div>
+          <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">Static Guarding & Manpower</div>
+          <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">Emergency & Alarm Rapid Response</div>
+          <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">Access Control & Surveillance Monitoring</div>
+          <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">Government Approved Security Officers</div>
+          <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">Concierge & Customer Service</div>
+          <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">Loss Prevention & Drug Testing</div>
+          <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">Event Security & Risk Assessment</div>
+          <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">Security Consultancy & Management</div>
+        </div>
+      </div>
     </section>
-        <p>&copy; 2025 Wisenet Security - All Rights Reserved.</p>
+
+    <!-- Technology -->
+    <section id="technology" class="py-16 md:py-24">
+      <div class="max-w-7xl mx-auto px-4 md:px-6">
+        <div class="mx-auto max-w-3xl text-center">
+          <h2 class="text-3xl font-bold tracking-tight md:text-4xl">Technology & Integration</h2>
+          <p class="mt-3 text-slate-600">Secure, compliant and audit‑ready systems that strengthen frontline operations.</p>
+        </div>
+        <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div class="rounded-2xl bg-cyan-600 p-6 text-white shadow"><div class="text-sm uppercase tracking-wide opacity-90">Cyber Security</div><div class="mt-2 text-lg font-semibold">Hardened ops, MFA, secure reporting portals and incident data retention.</div></div>
+          <div class="rounded-2xl bg-emerald-600 p-6 text-white shadow"><div class="text-sm uppercase tracking-wide opacity-90">CCTV</div><div class="mt-2 text-lg font-semibold">Networked video, remote viewing, analytics and evidence export workflows.</div></div>
+          <div class="rounded-2xl bg-violet-600 p-6 text-white shadow"><div class="text-sm uppercase tracking-wide opacity-90">Radio Comms</div><div class="mt-2 text-lg font-semibold">Digital radios with recorded comms, lone‑worker & duress integration.</div></div>
+          <div class="rounded-2xl bg-amber-500 p-6 text-white shadow"><div class="text-sm uppercase tracking-wide opacity-90">Body Cameras</div><div class="mt-2 text-lg font-semibold">Rugged body‑worn video and secure chain‑of‑custody storage.</div></div>
+        </div>
+        <div class="mt-10 grid gap-6 md:grid-cols-3">
+          <div class="rounded-xl border border-slate-200 p-5"><div class="text-sm text-slate-500">Integration</div><div class="font-semibold">Alarm panels, access control and visitor systems</div></div>
+          <div class="rounded-xl border border-slate-200 p-5"><div class="text-sm text-slate-500">Reporting</div><div class="font-semibold">GPS proof‑of‑service, photos and DARs</div></div>
+          <div class="rounded-xl border border-slate-200 p-5"><div class="text-sm text-slate-500">Compliance</div><div class="font-semibold">Privacy, evidence handling and data lifecycle</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recruitment -->
+    <section id="recruitment" class="py-16 md:py-24 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 md:px-6">
+        <div class="mx-auto max-w-3xl text-center">
+          <h2 class="text-3xl font-bold tracking-tight md:text-4xl">Join the Wisenet Security Team</h2>
+          <p class="mt-3 text-slate-600">We’re hiring professional, client‑focused officers across Adelaide. Day, night and event shifts available.</p>
+        </div>
+        <div class="mt-10 grid gap-6 md:grid-cols-3">
+          <div class="rounded-2xl bg-white p-6 shadow-sm">
+            <div class="text-sm text-slate-500">Role</div>
+            <div class="font-semibold">Static Guard (Gatehouse/FOH)</div>
+            <ul class="mt-3 list-disc list-inside text-sm text-slate-700">
+              <li>Valid security licence & clearances</li>
+              <li>Customer service focus</li>
+              <li>RSA & First Aid preferred</li>
+            </ul>
+          </div>
+          <div class="rounded-2xl bg-white p-6 shadow-sm">
+            <div class="text-sm text-slate-500">Role</div>
+            <div class="font-semibold">Mobile Patrol Officer</div>
+            <ul class="mt-3 list-disc list-inside text-sm text-slate-700">
+              <li>Manual licence & clean record</li>
+              <li>Night shifts, GPS reporting</li>
+              <li>Alarm response experience</li>
+            </ul>
+          </div>
+          <div class="rounded-2xl bg-white p-6 shadow-sm">
+            <div class="text-sm text-slate-500">Role</div>
+            <div class="font-semibold">Event & Crowd Control</div>
+            <ul class="mt-3 list-disc list-inside text-sm text-slate-700">
+              <li>RSA required</li>
+              <li>Radio comms proficiency</li>
+              <li>Professional presentation</li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-8 rounded-2xl themed p-6 text-white shadow">
+          <div class="grid gap-4 md:grid-cols-2 items-center">
+            <div>
+              <div class="text-lg font-semibold">Apply now</div>
+              <p class="text-white/90">Email your CV and licences. We’ll contact suitable candidates for interview and induction.</p>
+            </div>
+            <div class="flex flex-wrap gap-3 md:justify-end">
+              <a href="mailto:administration@wisenetsecurity.au?subject=Job%20Application%20-%20Wisenet%20Security" class="rounded-full bg-white px-5 py-3 text-sm font-semibold text-slate-900">Email HR</a>
+              <a href="#contact" class="rounded-full bg-black/20 px-5 py-3 text-sm font-semibold text-white">General Enquiry</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials / Feedback -->
+    <section id="testimonials" class="py-16 md:py-24">
+      <div class="max-w-7xl mx-auto px-4 md:px-6">
+        <div class="mx-auto max-w-2xl text-center">
+          <h2 class="text-3xl font-bold tracking-tight md:text-4xl">What Clients Say</h2>
+          <p class="mt-3 text-slate-600">Real feedback from Adelaide businesses we protect.</p>
+        </div>
+        <div class="mt-10 grid gap-6 md:grid-cols-3">
+          <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div class="text-sm text-slate-500">John – Facilities Manager</div>
+            <p class="mt-2 text-slate-700">“Wisenet’s mobile patrols are punctual and thorough. Incident follow‑ups are clear and action‑oriented.”</p>
+          </div>
+          <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div class="text-sm text-slate-500">Mike – Retail Loss Prevention</div>
+            <p class="mt-2 text-slate-700">“The team reduced our shrink within a month. Professional presence with excellent customer service.”</p>
+          </div>
+          <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div class="text-sm text-slate-500">Sarah – Event Operations</div>
+            <p class="mt-2 text-slate-700">“Crowd control was smooth and proactive. Great comms and debriefing.”</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section id="faqs" class="py-16 md:py-24 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 md:px-6">
+        <div class="mx-auto max-w-3xl text-center">
+          <h2 class="text-3xl font-bold tracking-tight md:text-4xl">Frequently Asked Questions</h2>
+        </div>
+        <div class="mt-10 grid gap-6 md:grid-cols-2">
+          <div class="rounded-2xl bg-white p-6 shadow-sm">
+            <div class="font-semibold">How quickly can you deploy?</div>
+            <p class="mt-2 text-slate-700">Often same‑day in metro Adelaide. Share your scope and site details for exact timing.</p>
+          </div>
+          <div class="rounded-2xl bg-white p-6 shadow-sm">
+            <div class="font-semibold">Do you provide DARs and incident reports?</div>
+            <p class="mt-2 text-slate-700">Yes – GPS‑backed patrol reports, photos, and incident logs for audits.</p>
+          </div>
+          <div class="rounded-2xl bg-white p-6 shadow-sm">
+            <div class="font-semibold">Can you integrate with our access control/CCTV?</div>
+            <p class="mt-2 text-slate-700">We work with common panels and VMS. We’ll review your site for the best approach.</p>
+          </div>
+          <div class="rounded-2xl bg-white p-6 shadow-sm">
+            <div class="font-semibold">Do you cover regional SA?</div>
+            <p class="mt-2 text-slate-700">Yes, by arrangement. Travel and mobilisation can be included in proposals.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 md:py-24">
+      <div class="max-w-7xl mx-auto px-4 md:px-6 grid gap-10 md:grid-cols-2">
+        <div>
+          <h2 class="text-3xl font-bold tracking-tight md:text-4xl">Get a Quote</h2>
+          <p class="mt-3 text-slate-600">Providing professional security services across Adelaide and South Australia.</p>
+          <ul class="mt-6 space-y-2 text-sm">
+            <li>📍 Adelaide, South Australia</li>
+            <li>📞 +61451597827</li>
+            <li>✉️ administration@wisenetsecurity.au</li>
+            <li>⏰ 24/7 Operations</li>
+          </ul>
+        </div>
+        <form class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div class="grid gap-3 md:grid-cols-2">
+            <input class="w-full rounded-xl border border-slate-300 p-2" type="text" placeholder="Full Name" required />
+            <input class="w-full rounded-xl border border-slate-300 p-2" type="text" placeholder="Company (optional)" />
+            <input class="w-full rounded-xl border border-slate-300 p-2" type="email" placeholder="Email" required />
+            <input class="w-full rounded-xl border border-slate-300 p-2" type="tel" placeholder="Phone" />
+            <textarea class="md:col-span-2 w-full rounded-2xl border border-slate-300 p-2" rows="5" placeholder="Scope: e.g. 1x guard 1800–0600, Mon–Sun, gatehouse, patrols..."></textarea>
+          </div>
+          <button class="mt-4 inline-flex w-full items-center justify-center rounded-xl bg-cyan-600 px-4 py-3 text-sm font-semibold text-white">Send enquiry</button>
+          <p class="mt-2 text-center text-xs text-slate-500">By submitting, you agree to our terms. We’ll never share your data.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t bg-white">
+      <div class="max-w-7xl mx-auto flex w-full flex-col items-center justify-between gap-6 px-4 py-8 text-sm text-slate-600 md:flex-row md:px-6">
+        <div class="flex flex-col items-center text-center md:flex-row md:items-center md:text-left md:gap-2">
+          <div class="rounded-xl bg-slate-100 p-2 ring-accent"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l7 3v6c0 5-3.5 9.5-7 11-3.5-1.5-7-6-7-11V5l7-3z"/></svg></div>
+          <span class="font-semibold">Wisenet Security</span>
+          <span aria-hidden>•</span>
+          <span>also known as Ercol Services Pty Ltd</span>
+          <span aria-hidden>•</span>
+          <span>© 2025 Wisenet Security - All Rights Reserved.</span>
+        </div>
+        <div class="flex flex-wrap items-center gap-4">
+          <a href="#about" class="hover:underline">About</a>
+          <a href="#services" class="hover:underline">Services</a>
+          <a href="#technology" class="hover:underline">Technology</a>
+          <a href="#recruitment" class="hover:underline">Recruitment</a>
+          <a href="#testimonials" class="hover:underline">Feedback</a>
+          <a href="#faqs" class="hover:underline">FAQs</a>
+          <a href="#contact" class="hover:underline">Contact</a>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
